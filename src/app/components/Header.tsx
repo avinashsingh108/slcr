@@ -56,7 +56,7 @@ const Header: React.FC = () => {
 
       <div className="flex justify-between items-center p-4 lg:px-10 xl:px-24 bg-[#081F5C] text-white">
         <h1 className=" text-xl sm:text-2xl font-medium sm:font-semibold">
-          Smart Laboratory On Clean River
+          Smart Laboratory ON Clean River
         </h1>
         <button
           className="lg:hidden text-xl sm:text-2xl"
