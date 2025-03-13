@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google"; 
+import { Outfit, EB_Garamond } from "next/font/google"; 
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -10,6 +11,13 @@ const outfit = Outfit({
   variable: "--font-outfit",
 });
 
+
+const garamond = EB_Garamond({
+  subsets: ["latin"],
+  display: "swap",
+  weight: [ "400", "500", "600", "700", "800"], 
+  variable: "--font-garamond",
+});
 export const metadata: Metadata = {
   title: "SLCR",
   description: "Smart Laboratory on Clean River",
@@ -22,9 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} antialiased`}>
+      <body className={`${outfit.variable} ${garamond.variable} antialiased`}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

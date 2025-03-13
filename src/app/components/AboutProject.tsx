@@ -10,7 +10,7 @@ const AboutProject = () => {
   return (
     <div className="min-h-[500px] bg-[#F5F5DC] flex flex-col items-center py-12 px-4">
       <div className="max-w-6xl w-full">
-        <h1 className="text-4xl font-bold text-gray-800 text-center">
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 text-center">
           About Our Project
         </h1>
         <p className="mt-4 text-lg text-gray-600 text-center">
@@ -49,7 +49,7 @@ const AboutProject = () => {
           </div>
 
           <div className="p-4 sm:p-8 bg-white rounded-lg w-full md:w-3/4">
-            <h2 className="text-2xl font-semibold text-gray-700">
+            <h2 className="text-lg sm:text-2xl font-semibold text-gray-700">
               {projectData.sections[activeSection].name}
             </h2>
             <p className="mt-4 text-gray-700 leading-relaxed">

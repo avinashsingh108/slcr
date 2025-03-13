@@ -12,7 +12,7 @@ const Partnership = () => {
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{indoDenmarkPartnership.description}</p>
         </div>
 
-        <div className="relative w-full h-[250px] sm:h-[350px] overflow-hidden shadow-md rounded-md">
+        <div className="relative w-full h-[250px] sm:h-[350px] hover:scale-105 transition duration-300 ease-in-out overflow-hidden shadow-md rounded-md">
           <Image
             src={indoDenmarkPartnership.image}
             alt={indoDenmarkPartnership.title}

@@ -1,7 +1,8 @@
 export const heroSlider = [
-  { src: "/img/img1.jpg", alt: "Project 1" },
-  { src: "/img/img2.jpg", alt: "Project 2" },
-  { src: "/img/img3.jpg", alt: "Project 3" },
+  { src: "/img/pm.jpg", alt: "Image 1" },
+  { src: "/img/ganga-ghat-haridwar2-attr-hero2.jpg", alt: "Image 2" },
+  { src: "/img/Varanasi-photography-000022.jpg", alt: "Image 3" },
+  { src: "/img/slcr3img2.jpg", alt: "Image 4" },
 ];
 
 export const heroText = {

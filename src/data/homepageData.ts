@@ -6,27 +6,27 @@ import { LuBookOpen } from "react-icons/lu";
 export const importantLinks = [
   {
     title: "Central Pollution Control Board",
-    url: "#",
+    url: "https://cpcb.nic.in/",
   },
   {
     title: "National Mission for Clean Ganga",
-    url: "#",
+    url: "https://nmcg.nic.in/",
   },
   {
     title: "Central Ground Water Board",
-    url: "#",
+    url: "https://cgwb.gov.in/",
   },
   {
     title: "National Institute of Hydrology",
-    url: "#",
+    url: "https://nihroorkee.gov.in/",
   },
   {
     title: "India-WRIS",
-    url: "#",
+    url: "https://indiawris.gov.in/wris/#/",
   },
   {
     title: "Ministry of Jal Shakti",
-    url: "#",
+    url: "https://jalshakti-dowr.gov.in/",
   },
 ];
 
