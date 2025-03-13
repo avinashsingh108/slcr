@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-lg z-50 absolute top-0 right-0 left-0">
+    <nav className="w-full bg-white shadow-lg z-50 md:absolute top-0 right-0 left-0">
       <div className="flex max-md:flex-col max-md:gap-y-2 items-center justify-between space-x-4 p-2 lg:px-40">
         <div className="flex space-x-10 justify-between items-center">
           <div className="max-sm:w-[160px]">
@@ -59,13 +59,13 @@ const Header: React.FC = () => {
       </div>
       <div className="flex justify-between items-center p-4 lg:px-24 xl:px-48 bg-[#081F5C] text-white">
         <button
-          className="lg:hidden text-2xl cursor-pointer ml-auto"
+          className="md:hidden text-2xl cursor-pointer ml-auto"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
 
-        <ul className="hidden lg:flex gap-6 lg:gap-20 justify-center items-center flex-1">
+        <ul className="hidden md:flex gap-6 md:gap-6 lg:gap-20 justify-center items-center flex-1">
           {menuItems.map((item: MenuItem) => (
             <li
               key={item.title}
