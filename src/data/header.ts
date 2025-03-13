@@ -34,6 +34,6 @@ export const menuItems: MenuItem[] = [
   },
   { title: "Event", link: "/event" },
   { title: "Data", link: "/data" },
-  { title: "Media and Gallery", link: "/media-gallery" },
+  { title: "Media", link: "/media-gallery" },
   { title: "Contact", link: "/contact" },
 ];

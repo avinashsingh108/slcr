@@ -8,7 +8,7 @@ const AboutProject = () => {
   const [activeSection, setActiveSection] = useState(0);
 
   return (
-    <div className="min-h-[500px] bg-[#F5F5DC] flex flex-col items-center py-12 px-6">
+    <div className="min-h-[500px] bg-[#F5F5DC] flex flex-col items-center py-12 px-4">
       <div className="max-w-6xl w-full">
         <h1 className="text-4xl font-bold text-gray-800 text-center">
           About Our Project
@@ -48,7 +48,7 @@ const AboutProject = () => {
             })}
           </div>
 
-          <div className="p-8 bg-white rounded-lg w-full md:w-3/4">
+          <div className="p-4 sm:p-8 bg-white rounded-lg w-full md:w-3/4">
             <h2 className="text-2xl font-semibold text-gray-700">
               {projectData.sections[activeSection].name}
             </h2>
@@ -72,7 +72,7 @@ const AboutProject = () => {
             )}
 
             {projectData.sections[activeSection].outcome && (
-              <p className="mt-6 text-lg text-gray-700 font-semibold">
+              <p className="mt-6 text-lg text-gray-700 font-medium">
                 Outcome: {projectData.sections[activeSection].outcome}
               </p>
             )}
