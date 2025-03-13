@@ -28,6 +28,7 @@ const Hero = () => {
                   className="w-full h-full object-cover"
                   priority={true}
                 />
+                
               </div>
             </SwiperSlide>
           ))}
