@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-white text-neutral-700 py-6">
       <div className="container mx-auto text-center">
         <p className="text-sm md:text-base font-light">
-          &copy; SLCR | All Rights Reserved
+          &copy; 2025 SLCR | All Rights Reserved
         </p>
         <p className="text-sm md:text-base font-light">
           SLCR, Indian Institute of Technology, BHU, Varanasi.

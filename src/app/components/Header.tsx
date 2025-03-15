@@ -92,7 +92,7 @@ const Header: React.FC = () => {
               )}
 
               {item.subMenu && hovered === item.title && (
-                <ul className="absolute left-0 w-48 bg-white shadow-md rounded-lg overflow-hidden">
+                <ul className="absolute left-0 w-fit bg-white shadow-md rounded-lg overflow-hidden">
                   {item.subMenu.map((subItem) => (
                     <li key={subItem.title} className="hover:bg-blue-50">
                       <Link
